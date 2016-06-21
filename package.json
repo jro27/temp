@@ -1,0 +1,33 @@
+{
+  "name": "cscms-cli",
+  "version": "0.0.0",
+  "description": "A CLI for using CSCMS.",
+  "main": "",
+  "repository": "",
+  "author": "Joe Rombs <jrombs@csc.com>",
+  "scripts": {
+    
+  },
+  "bin": {
+    "cscms": "./lib/cscms.js"
+  },
+  "dependencies": {
+    "cli": "^0.11.2",
+    "lab": "^5.18.1",
+    "aws-sdk": "^2.3.15",
+    "inquirer": "^1.0.2",
+    "bluebird": "^3.4.0"
+  }, 
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3",
+    "chai": "^3.5.0",
+    "proxyquire": "^1.7.9",
+    "sinon": "^1.17.4", 
+    "chai-as-promised": "^5.3.0",
+    "sinon-as-promised": "4.0.0",
+    "istanbul": "^0.4.3"
+  }
+}
